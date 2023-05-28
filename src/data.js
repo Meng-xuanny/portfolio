@@ -7,6 +7,7 @@ import img6 from "./images/bankist-app.png";
 import img7 from "./images/bankist-web.png";
 import img8 from "./images/tenzies.png";
 import img9 from "./images/piggame.png";
+import img10 from "./images/natours.png";
 
 export const sites = [
   {
@@ -62,5 +63,11 @@ export const sites = [
     url: "https://dice-rolling-mengxuan.netlify.app/",
     image: img9,
     title: "Pig Game",
+  },
+  {
+    id: 10,
+    url: "https://natours-mengxuan.netlify.app/",
+    image: img10,
+    title: "Natours",
   },
 ];
