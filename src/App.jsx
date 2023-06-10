@@ -7,7 +7,7 @@ import Overlay from "./components/Overlay";
 function App() {
   const [isOverlay, setIsoverlay] = useState(false);
   return (
-    <main className="container">
+    <main className={isOverlay ? "container container-blur" : "container"}>
       <Header />
 
       <section className="cards-container">
@@ -18,7 +18,9 @@ function App() {
           Interested? Click Here
         </button>
 
-        {isOverlay ? <Overlay setIsoverlay={setIsoverlay} /> : null}
+        {isOverlay ? (
+          <Overlay setIsoverlay={setIsoverlay} isOverlay={isOverlay} />
+        ) : null}
       </section>
       <Footer />
     </main>

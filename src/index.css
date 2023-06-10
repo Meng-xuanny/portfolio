@@ -37,7 +37,13 @@ h2 {
   align-items: center;
 }
 
-.section {
+.container-blur {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+section {
   padding: 5rem 0;
   scroll-margin-top: 4rem;
 }
@@ -127,6 +133,7 @@ h2 {
 .model-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   height: 17rem;
   width: 85%;
@@ -187,12 +194,11 @@ a {
 /* CLASSES TO MAKE MODAL WORK */
 
 .modal {
-  position: absolute;
-  bottom: 30%;
+  position: fixed;
+  bottom: 3%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
-
+  max-width: 80%;
   background-color: white;
   padding: 6rem;
   border-radius: 5px;
@@ -210,6 +216,10 @@ a {
   .site-title {
     font-size: 1.6rem;
     margin-top: 1.1rem;
+  }
+  .modal {
+    width: 70vw;
+    padding: 3rem;
   }
 }
 
@@ -297,6 +307,10 @@ a {
   .sites-container {
     grid-template-columns: 1fr 1fr;
     height: auto;
+  }
+
+  .modal {
+    width: fit-content;
   }
 }
 
