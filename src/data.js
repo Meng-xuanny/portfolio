@@ -8,6 +8,7 @@ import img7 from "./images/bankist-web.png";
 import img8 from "./images/tenzies.png";
 import img9 from "./images/piggame.png";
 import img10 from "./images/natours.png";
+import img11 from "./images/nexter.png";
 
 export const sites = [
   {
@@ -69,5 +70,11 @@ export const sites = [
     url: "https://natours-mengxuan.netlify.app/",
     image: img10,
     title: "Natours",
+  },
+  {
+    id: 11,
+    url: "https://nexter-mengxuan.netlify.app/",
+    image: img11,
+    title: "Nexter",
   },
 ];
