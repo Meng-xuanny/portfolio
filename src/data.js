@@ -17,12 +17,12 @@ export const sites = [
     image: img1,
     title: "Facts--What I learned today",
   },
-  {
-    id: 2,
-    url: "https://vanlife-mengxuan.netlify.app",
-    image: img2,
-    title: "Vanlife",
-  },
+  // {
+  //   id: 2,
+  //   url: "https://vanlife-mengxuan.netlify.app",
+  //   image: img2,
+  //   title: "Vanlife",
+  // },
   {
     id: 3,
     url: "https://luluvending-mengxuan.netlify.app",
