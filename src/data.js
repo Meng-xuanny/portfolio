@@ -1,5 +1,5 @@
 import img1 from "./images/facts.png";
-import img2 from "./images/vanlife.png";
+import img2 from "./images/Image Browser.png";
 import img3 from "./images/luluvending.png";
 import img4 from "./images/forkify.png";
 import img5 from "./images/mapty.png";
@@ -17,12 +17,12 @@ export const sites = [
     image: img1,
     title: "Facts--What I learned today",
   },
-  // {
-  //   id: 2,
-  //   url: "https://vanlife-mengxuan.netlify.app",
-  //   image: img2,
-  //   title: "Vanlife",
-  // },
+  {
+    id: 2,
+    url: "https://image-browser-mx.netlify.app",
+    image: img2,
+    title: "Image Browser",
+  },
   {
     id: 3,
     url: "https://luluvending-mengxuan.netlify.app",
