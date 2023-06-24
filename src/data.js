@@ -1,5 +1,6 @@
 import img1 from "./images/facts.png";
 import img2 from "./images/Image Browser.png";
+import img21 from "./images/contentful.png";
 import img3 from "./images/luluvending.png";
 import img4 from "./images/forkify.png";
 import img5 from "./images/mapty.png";
@@ -22,6 +23,12 @@ export const sites = [
     url: "https://image-browser-mx.netlify.app",
     image: img2,
     title: "Image Browser",
+  },
+  {
+    id: 2.1,
+    url: "https://contentful-mengxuan.netlify.app",
+    image: img21,
+    title: "Contentful App",
   },
   {
     id: 3,
