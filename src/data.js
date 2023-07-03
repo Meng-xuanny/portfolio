@@ -6,12 +6,18 @@ import img4 from "./images/forkify.png";
 import img5 from "./images/mapty.png";
 import img6 from "./images/bankist-app.png";
 import img7 from "./images/bankist-web.png";
-import img8 from "./images/tenzies.png";
+import img8 from "./images/moviesdb.png";
 import img9 from "./images/piggame.png";
 import img10 from "./images/natours.png";
 import img11 from "./images/nexter.png";
 
 export const sites = [
+  {
+    id: 2.1,
+    url: "https://contentful-mengxuan.netlify.app",
+    image: img21,
+    title: "Contentful App",
+  },
   {
     id: 1,
     url: "https://facts-mengxuan.netlify.app",
@@ -25,10 +31,10 @@ export const sites = [
     title: "Image Browser",
   },
   {
-    id: 2.1,
-    url: "https://contentful-mengxuan.netlify.app",
-    image: img21,
-    title: "Contentful App",
+    id: 8,
+    url: "https://moviesdb-mx.netlify.app/",
+    image: img8,
+    title: "MoviesDB",
   },
   {
     id: 3,
@@ -60,18 +66,12 @@ export const sites = [
     image: img7,
     title: "Bankist Official Site",
   },
-  {
-    id: 8,
-    url: "https://tenzies-mengxuan.netlify.app/",
-    image: img8,
-    title: "Tenzies",
-  },
-  {
-    id: 9,
-    url: "https://dice-rolling-mengxuan.netlify.app/",
-    image: img9,
-    title: "Pig Game",
-  },
+  // {
+  //   id: 9,
+  //   url: "https://dice-rolling-mengxuan.netlify.app/",
+  //   image: img9,
+  //   title: "Pig Game",
+  // },
   {
     id: 10,
     url: "https://natours-mengxuan.netlify.app/",
