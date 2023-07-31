@@ -10,8 +10,15 @@ import img8 from "./images/moviesdb.png";
 import img9 from "./images/piggame.png";
 import img10 from "./images/natours.png";
 import img11 from "./images/nexter.png";
+import img12 from "./images/comfy.png";
 
 export const sites = [
+  {
+    id: 12,
+    url: "https://comfy-sloth-mengxuan.netlify.app/",
+    image: img12,
+    title: "Comfy Sloth Store",
+  },
   {
     id: 2.1,
     url: "https://contentful-mengxuan.netlify.app",
