@@ -11,6 +11,7 @@ import img9 from "./images/piggame.png";
 import img10 from "./images/natours.png";
 import img11 from "./images/nexter.png";
 import img12 from "./images/comfy.png";
+import img13 from "./images/Jobster.png"
 
 export const sites = [
   {
@@ -18,6 +19,12 @@ export const sites = [
     url: "https://comfy-sloth-mengxuan.netlify.app/",
     image: img12,
     title: "Comfy Sloth Store",
+  },
+  {
+    id: 13,
+    url: "https://jobster-mengxuan.netlify.app/",
+    image: img13,
+    title: "Jobster",
   },
   {
     id: 2.1,
